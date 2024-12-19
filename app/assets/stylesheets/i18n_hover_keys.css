@@ -1,0 +1,7 @@
+.i18n-tooltip {
+  position: absolute;
+  background-color: yellow;
+  border: 1px solid black;
+  padding: 2px;
+  z-index: 1000;
+}
