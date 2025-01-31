@@ -13,10 +13,14 @@
 2.  Run `bundle install` to install the gem.
 
 3. Pin the js file (importmaps)
+```
         bin/rails importmap:pin i18n_hover_keys
+```
 
-4. Import in app/javascript/application.js
+5. Import in app/javascript/application.js
+```
         import "i18n_hover_keys"
+```
 
 ### Usage in Views
 
