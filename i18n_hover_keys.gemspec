@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Eric Khoury"]
   spec.email = ["khoury@live.se"]
 
-  spec.summary = "A Rails extension that reveals translation keys when hovering over translated text, empowering QA teams and non-developers to identify the exact keys used in the interface."
-  spec.description = "This gem extends the internationalization (i18n) functionality in Ruby on Rails by adding a simple toggle button to your application’s UI. When activated, it overlays each translated string with a tooltip that displays its associated translation key on hover. This allows QA teams, product managers, and other non-technical stakeholders to quickly identify which translation keys correspond to specific pieces of text on the page—without diving into source code. Designed for simplicity and ease-of-use, the gem integrates seamlessly with the Rails asset pipeline and can be easily enabled or disabled as needed, streamlining your localization quality assurance process."
+  spec.summary = "Hover i18n translated texts to see their translation keys"
+  spec.description = "This gem adds a simple toggle button to the UI. When toggled, translated strings will show thier i18n translation keys on hover."
   spec.homepage = "https://github.com/eric-khoury/i18n_hover_keys"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
