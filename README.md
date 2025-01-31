@@ -1,6 +1,6 @@
 # I18nHoverKeys
 
-### A Rails extension that reveals translation keys when hovering over translated text, empowering QA teams and non-developers to identify the exact keys used in the interface.
+### A Rails extension that reveals translation keys when hovering over translated text
 
 ## Usage
 
@@ -11,6 +11,12 @@
         gem 'i18n_hover_keys'
 
 2.  Run `bundle install` to install the gem.
+
+3. Pin the js file (importmaps)
+        bin/rails importmap:pin i18n_hover_keys
+
+4. Import in app/javascript/application.js
+        import "i18n_hover_keys"
 
 ### Usage in Views
 
